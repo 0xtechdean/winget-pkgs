@@ -13,6 +13,7 @@ PackageLocale: en-US
 Publisher: Othentic Labs LTD
 PublisherUrl: https://anyray.ai
 PublisherSupportUrl: https://github.com/anyrayHQ/install/issues
+PrivacyUrl: https://anyray.ai/privacy
 Author: Anyray
 PackageName: Anyray Connect
 PackageUrl: https://github.com/anyrayHQ/install
@@ -22,9 +23,9 @@ ShortDescription: On-ramp CLI that points Claude Code, Codex, and other AI codin
 Description: |-
   anyray-connect configures local AI coding assistants (Claude Code, Codex, and
   compatible clients) to route their LLM traffic through an Anyray gateway. The
-  gateway serves each request as cheaply as it can and gives the organization
-  spend visibility and governance, without exposing prompt or response content
-  to humans. The Windows build is a single signed, self-contained executable —
+  gateway routes requests to organization-configured LLM providers while
+  keeping prompt and response content within the organization's self-hosted
+  deployment and outside Anyray's systems. The Windows build is a single signed, self-contained executable —
   no Node, nothing else to install.
 Moniker: anyray-connect
 Tags:
